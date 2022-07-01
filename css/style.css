@@ -92,6 +92,12 @@ text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*REDES*/
+.card-text-center {
+ width: 100%;
+ display: flex;
+ justify-content: center;
+
+}
 .card-img-top {
     width: 23%;
     align-items: center;
@@ -139,7 +145,13 @@ text-align: center;
 }
 .footer-nos {
     text-align: center;
+    font-size: small;
 }
 .container-plataformas {
     align-content:center ;
+}
+.text-footer {
+    font-size: small;
+    text-align: center;
+    color: gray;
 }
