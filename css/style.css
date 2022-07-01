@@ -54,6 +54,16 @@ nav {
 }
 /*END INDEX*/
 /*FECHAS*/
+.container {
+    display: flex;
+    border: 1em;
+    position: relative;
+}
+.img-fechas {
+    z-index: -1000;
+    width: 100vw;
+    opacity: .3;
+}
 .nav-link {
     color: white;
 }
@@ -80,4 +90,56 @@ text-align: center;
 .card-link {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*REDES*/
+.card-img-top {
+    width: 23%;
+    align-items: center;
+}
+.container-redes{
+    display: flex;
+    background-color: black;
+}
+.img-redes {
+    width: 100vw;
+    z-index: -1000;
+    opacity: .3;
+}
+.card-body-redes {
+    background-color: black;
+    align-content: center;
+}
+.clickea {
+    text-align: center;
+    background-color: black;
+    border: none
+}
+.btn {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*NOSOTROS*/
+.body-nosotros {
+    background-color: black;
+}
+.img-back-nos {
+    width: 100vw;
+    z-index: -1000;
+    height: auto;
+}
+.h3-nos {
+    color:white;
+    text-align: center;
+}
+.footer-nos {
+    text-align: center;
+}
+.container-plataformas {
+    align-content:center ;
 }
