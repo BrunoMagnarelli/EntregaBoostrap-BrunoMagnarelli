@@ -4,7 +4,16 @@ body {
 }
 .logo {
     width: 25%;
+    z-index: 1000;
     position: absolute;
+}
+.logo:hover {
+    width: 28%;
+    border: 10px;
+    transform: translateX(5px);
+    position: absolute;
+    transition: all 2s;
+
 }
 #carouselExampleFade  {
     width: 100vw;
@@ -26,14 +35,21 @@ body {
 .navegacion ul li a {
     color: white;
 }
-.nav-item:hover {
-    background-color: black;
-    border-radius: 40px;
-    opacity: .6;
-}
+
+
 .textos {
     color: white;
 }
+
+
+.row:hover {
+    
+    transform: translateY(-15px);
+    transition: all 2s;
+
+}
+
+
 .card-text {
     text-align: center;
     color: white;
@@ -48,16 +64,31 @@ nav {
 .nav-item  {
     color: white;
 }
+.nav-item:hover {
+    background-color: black;
+    border-radius: 40px;
+    transform: translateY(-11px);
+    opacity: .8;
+    transition: all 2s;
+}
 .textos {
     justify-content: center;
     text-align: center;
 }
 /*END INDEX*/
 /*FECHAS*/
+.proxima {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+    font-size:xx-large;
+    size: 12em;
+}
 .container {
+    text-align: center;
     display: flex;
-    border: 1em;
-    position: relative;
+    justify-content: space-evenly;
+    
 }
 .img-fechas {
     z-index: -1000;
@@ -87,14 +118,20 @@ text-align: center;
     border-radius: 40px;
     opacity: .6;
     }
+
 .card-link {
+    
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 /*REDES*/
+.card-redes {
+    justify-content: space-evenly;
+    align-content: center;
+    display: flex;
+}
 .card-text-center {
  width: 100%;
- display: flex;
  justify-content: center;
 
 }
@@ -102,8 +139,14 @@ text-align: center;
     width: 23%;
     align-items: center;
 }
+.card-img-top:hover {
+    width: 27%;
+    align-items: center;
+    transform: translateY(-25px);
+}
 .container-redes{
     display: flex;
+    justify-content: space-evenly;
     background-color: black;
 }
 .img-redes {
