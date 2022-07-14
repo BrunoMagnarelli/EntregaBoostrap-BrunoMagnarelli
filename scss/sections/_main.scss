@@ -11,6 +11,7 @@
 .nav-item a  {
     color: $blanco;
 }
+
 .navbar button span {
     filter: invert(1) brightness(2)
     ;
@@ -22,16 +23,20 @@
     color: $blanco;
     text-align: center;
 }
-.navegacion ul li a {
-    color: $blanco;
-}
+
 
 
 .textos {
     color: $blanco;
+    justify-content: center;
+    text-align: center;
 }
 
+.navegacion ul li a {
+    color: white;
 
+
+}
 .row:hover {
     
     transform: translateY(-15px);
@@ -60,8 +65,4 @@ nav {
     transform: translateY(-11px);
     opacity: .8;
     transition: all 2s;
-}
-.textos {
-    justify-content: center;
-    text-align: center;
 }
